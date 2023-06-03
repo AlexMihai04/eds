@@ -1,0 +1,62 @@
+14. De pus poze la chestionare
+
+15.(De facut) De facut o pagina in care sa apara toate schimbarile noi pe care le-a suferit site-ul
+
+17.(Nu este necesar in punctul asta,dar trebuie facut) O pagina de admin principal (lista utilizatori , statisticile lor , creare coduri pentru instructori/scoli de soferi/elevi)
+
+!!!! 19. Instructorul si elevul sa poata vorbii direct pe site
+
+20. Sa se poata schimba parola la cont
+
+24. Codurile sa aibe si qr
+
+!!!! 4. (?) Trimitere de email-uri la creare de cont , programare ora (elev + profesor) 
+
+25. Sa se poata reseta parola in caz ca o uita,pe baza de email
+26. La register sa se ceara si email-ul
+
+
+Done : 
+
+1. Reparat eroare login dupa register
+2. Reparat timer chestionare
+3. Calendarul pentru programarea orei nu mai apare daca profesorul nu are ore libere
+4. Adaugare functionalitate de anulare a unei ore de condus de catre profesor
+5. Acum pop-ul deschis la fiecare elev isi da refresh , nu se mai blocheaza
+6. Profesorii au functia de a sterge codurile proprii
+7. Am stabilit diferite permisiuni care ofera acces la diferite optiuni
+
+30.05.2023
+8. Am modificat pagina de prezentare , acum mai este o sectiune de contact
+9. Adaugate niste animatii noi pe pagina de prezentare 
+
+31.05.2023
+10. Adaugat indicator de loading la diferite actiuni ( pana se salveaza in baza de date )
+11. Reparat bug : atunci cand un profesor anula o ora de condus a unui elev , ora ramanea ocupata
+12. Toate datele de pe site acum sunt in formatul corect , zi-luna-an
+
+02.06.2023
+13. Instructorul sa poata seta nr reg la fiecare elev in parte
+14. Sa se vada cate ore a facut (numar) , nu doar lista cu ele
+15. Acum butonul de finalizare al scolii de soferi are 2 optiuni : Da , nu
+16. Instructorul poate seta data la care elevul are orasul respectiv sala
+17. Adaugate popup-uri pe pagina fiecarui elev in parte care indica diferite lucruri
+18. Pus footer si pe panel + chestionare + login
+
+19. Categorii de conturi ( categorii de permise ) -> sa se seteze categoria pe coduri de inregistrare
+20. Pe pagina elevului langa nume sa apara si numarul de telefon
+21. Sa se inregistreze si numarul de telefon
+22. Instructorii / administratorii pot sterge codurile create de ei
+
+23. Instructorul sa poata vedea toate orele pe care le are in perioada urmatoare 
+24. Sa poata marca instructorul daca elevul a luat sala si orasul
+25. Chestionarele sa fie in functie de categoria elevului.
+26. La meniul de chestionare pe interfata de instructor , sa se poata sorta in functie de categoria de permis pe care o doreste
+27. Conturile pot fii dezactivate de catre instructori
+
+
+28. O pagina de administrator a scolii de soferi
+29. Pe pagina administratorului scolii de soferi apar toti instructorii respectiv toti elevii atribuiti lor
+30. Date despre fiecare instructor in parte precum cand si-a creat contul si ce numar de inmatriculare are la masina
+31. Administratorul scolii de soferi poate crea coduri pentru instructori
+32. Administratorul scolii de soferi poate restrictiona un instructor si automat toti elevii atribuiti lui sunt banati

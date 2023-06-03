@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>EDS | Panel</title>
+
+
+    <!-- JQUERY -->
+    <script src="client/js/lib/jquery.min.js"></script>
+
+    <!-- WEBSITE CUSTOMIZATION -->
+    <link rel="stylesheet" href="client/css/style/style.css">
+
+    <!-- SCROLLBAR CUSTOMIZATION -->
+    <link rel="stylesheet" href="client/css/style/scrollbar.css">
+
+    <!-- BULMA CSS(RESPONSIVE FRAMEWORK) -->
+    <link rel="stylesheet" href="client/css/bulma/bulma.min.css">
+    
+    <!-- BUEFY -->
+    <link rel="stylesheet" href="https://unpkg.com/buefy/dist/buefy.min.css">
+
+    <!-- BULMA DIVIDER -->
+    <link href="client/css/bulma-divider/bulma-divider.min.css" rel="stylesheet">
+
+    <!-- BULMA PAGELOADER -->
+    <link href="https://cdn.jsdelivr.net/npm/bulma-pageloader@0.3.0/dist/css/bulma-pageloader.min.css" rel="stylesheet">
+
+
+    <!-- ANIMATE ON SCROLL -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- ANIMATE.CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/f1ead0569a.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div id="company_page">
+      <!-- NAVBAR -->
+      <b-navbar style="border-bottom: 0.25rem solid #f14668;">
+        <template #brand>
+            <b-navbar-item>
+                <img src="client/photos/logo.png">
+            </b-navbar-item>
+        </template>
+        <template #start>
+            <b-navbar-item href="index.html">
+                Acasa
+            </b-navbar-item>
+
+        </template>
+
+    </b-navbar>
+    <br>
+      <div id="main">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-4-widescreen is-4-desktop is-4-tablet is-12-mobile">
+                <div class="card glow_fade" data-aos="fade-down" data-aos-duration="1800" data-aos-offset="40" style="min-height:100%;max-height:100%">
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-48x48">
+                                    <img src="client/photos/question_mark.svg" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4">Udrescu Alexandru</p>
+                                <p class="subtitle is-6">Instructor</p>
+                            </div>
+                        </div>
+                        <!-- <div class="is-divider" data-content="Informatii generale"></div> -->
+                        <div class="content">
+                            <!-- <b-table :data="teacher_info.data" :columns="teacher_info.columns"></b-table> -->
+                            <br>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+
+
+    <style scoped>
+      /* .vue-grid-item .static {
+    background: #cce;
+} */
+.vue-grid-item:not(.vue-grid-placeholder) {
+    height: 20% !important;
+}
+/* .vue-grid-item .no-drag {
+    height: auto !important;
+    width: 100%;
+} */
+.grid::before {
+    content: '';
+    background-size: calc(calc(100% - 5px) / 12) 40px;
+    background-image: linear-gradient(
+            to right,
+            lightgrey 1px,
+            transparent 1px
+    ),
+    linear-gradient(to bottom, lightgrey 1px, transparent 1px);
+    height: calc(100% - 5px);
+    width: calc(100% - 5px);
+    position: absolute;
+    background-repeat: repeat;
+    margin:5px;
+}
+    </style>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- CRSF -->
+    <input type="hidden" id="crsf" name="crsf" value="<?php echo $_SESSION['crsf']; ?>">
+
+    <style>
+
+    </style>
+
+    <!-- VUE -->
+    <script src="client/js/lib/vue.min.js"></script>
+
+    <!-- STAGGER
+    <script src="https://cdn.jsdelivr.net/npm/@plutonium-js/vue-stagger@1/dist/bundle.umd.js"></script>
+    <script>
+    Vue.use(window.puStagger);
+    </script> -->
+
+    <!-- VUE GRID LAYOUT -->
+    <script src="https://cdn.jsdelivr.net/npm/vue-grid-layout@2.4.0/dist/vue-grid-layout.umd.min.js"></script>
+
+    <!-- BUEFY -->
+    <script src="https://unpkg.com/buefy/dist/buefy.min.js"></script>
+
+
+    <!-- LISTENERS -->
+    <script src="client/js/scripts/company.js"></script>
+  </body>
+</html>

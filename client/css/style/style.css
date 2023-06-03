@@ -1,0 +1,78 @@
+.coral{
+    background-color: #ec6e7b !important;
+}
+
+
+@keyframes glow {
+    0% {
+        box-shadow: -3px 6px 12px 4px rgba(241, 70, 104,.14), 3px -6px 12px 4px rgba(255, 211, 89, 0.14)
+    }
+    25% {
+        box-shadow: 3px 6px 12px 4px rgba(241, 70, 104,.14), 3px 6px 12px 4px rgba(255, 211, 89, 0.14)
+    }
+    50% {
+        box-shadow: 3px -6px 12px 4px rgba(241, 70, 104,.14), -3px 6px 12px 4px rgba(255, 211, 89, 0.14)
+    }
+    75%{
+        box-shadow: -3px -6px 12px 4px rgba(241, 70, 104,.14), -3px -6px 12px 4px rgba(255, 211, 89, 0.14)
+    }
+    100%{
+        box-shadow: -3px 6px 12px 4px rgba(241, 70, 104,.14), 3px -6px 12px 4px rgba(255, 211, 89, 0.14)
+    }
+}
+
+@keyframes glow_g {
+    0% {
+        box-shadow: -3px 6px 12px 4px rgba(72, 199, 142,.17), 3px -6px 12px 4px rgba(255,255,255, 0.14)
+    }
+    25% {
+        box-shadow: 3px 6px 12px 4px rgba(72, 199, 142,.17), 3px 6px 12px 4px rgba(255,255,255, 0.14)
+    }
+    50% {
+        box-shadow: 3px -6px 12px 4px rgba(72, 199, 142,.17), -3px 6px 12px 4px rgba(255,255,255, 0.14)
+    }
+    75%{
+        box-shadow: -3px -6px 12px 4px rgba(72, 199, 142,.17), -3px -6px 12px 4px rgba(255,255,255, 0.14)
+    }
+    100%{
+        box-shadow: -3px 6px 12px 4px rgba(72, 199, 142,.17), 3px -6px 12px 4px rgba(255,255,255, 0.14)
+    }
+}
+
+@keyframes glow_gi {
+    0% {
+        box-shadow: -3px 6px 12px 4px rgba(72, 199, 142,.25), 3px -6px 12px 4px rgba(255,255,255, 0.14)
+    }
+    25% {
+        box-shadow: 3px 6px 12px 4px rgba(72, 199, 142,.25), 3px 6px 12px 4px rgba(255,255,255, 0.14)
+    }
+    50% {
+        box-shadow: 3px -6px 12px 4px rgba(72, 199, 142,.25), -3px 6px 12px 4px rgba(255,255,255, 0.14)
+    }
+    75%{
+        box-shadow: -3px -6px 12px 4px rgba(72, 199, 142,.25), -3px -6px 12px 4px rgba(255,255,255, 0.14)
+    }
+    100%{
+        box-shadow: -3px 6px 12px 4px rgba(72, 199, 142,.25), 3px -6px 12px 4px rgba(255,255,255, 0.14)
+    }
+}
+
+.glow_fade{
+    animation-name:glow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.glow_green{
+    border-radius:10px !important;
+    animation-name:glow_g;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.glow_greeni{
+    border-radius:10px !important;
+    animation-name:glow_gi;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
